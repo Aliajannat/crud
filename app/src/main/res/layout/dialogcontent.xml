@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:background="#7F3CF5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Product Panel"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uimurl"
+        android:hint="Image Url"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uiname"
+        android:hint="Product Name"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usize"
+        android:hint="Product Size"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ugender"
+        android:hint="Product Price"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:id="@+id/submit"
+        android:textAlignment="center"/>
+</LinearLayout>
